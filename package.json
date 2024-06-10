@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.92.3",
+    "@types/node": "^20.14.2",
+    "bs58": "^5.0.0",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  },
+  "scripts": {
+    "keygen": "ts-node ./esercizio1/keygen.ts",
+    "airdrop": "ts-node ./esercizio2/airdrop.ts",
+    "createMint": "ts-node ./esercizio3/spl_init.ts",
+    "mint":"ts-node ./esercizio3/spl_mint.ts",
+    "transfer":"ts-node ./esercizio4/spl_transfer.ts"
+  },
+  "name": "MasterZxSolana-Esame",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
